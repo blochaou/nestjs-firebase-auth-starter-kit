@@ -53,4 +53,4 @@ export const MONGO_URI = 'mongodb+srv://USERNAME:PASSWORD@DOMAINENAME/DBNAME?ret
 
 ## License
 
-[MIT licensed](LICENSE).
+MIT Licence.
