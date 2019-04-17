@@ -4,7 +4,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework with Firebase Authentication and MongoDB integration.
+[Nest](https://github.com/nestjs/nest) framework with [Firebase Authentication](https://firebase.google.com/products/auth/?authuser=0) and [MongoDB integration](https://www.mongodb.com/).
 
 ## Installation
 
