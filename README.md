@@ -15,7 +15,7 @@ $ npm install
 ## Setup Firebase
 
 Please download the service account file in your Firebase account and add to this project.
-[Firebase account service setting](./firebase-account-service-setting.png)
+![Firebase account service setting](./firebase-account-service-setting.png)
 ```bash
 # development
 $ npm run start
