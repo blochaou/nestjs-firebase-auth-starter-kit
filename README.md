@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://www.bef-technology.com/images/img/logo-bef-technology-138x70.jpg" width="138" alt="BEF Technology logo" /></a>
 </p>
 
 [travis-image]: https://api.travis-ci.org/nestjs/nest.svg?branch=master
