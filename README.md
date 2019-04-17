@@ -32,6 +32,13 @@ Please download the service account file in your Firebase account. Copy and past
 
 ![Firebase account service setting](./firebase-account-service-setting.png)
 
+## Setup MongoDB
+
+Change the MongoDB uri in the file constantes.ts
+
+```
+export const MONGO_URI = 'mongodb+srv://USERNAME:PASSWORD@DOMAINENAME/DBNAME?retryWrites=true';
+```
 
 ```bash
 # development
