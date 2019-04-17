@@ -14,8 +14,10 @@ $ npm install
 
 ## Setup Firebase
 
-Please download the service account file in your Firebase account and add to this project.
+Please download the service account file in your Firebase account. Copy and past the JSON parameter in the file firebase.secrets.json.
 ![Firebase account service setting](./firebase-account-service-setting.png)
+
+
 ```bash
 # development
 $ npm run start
