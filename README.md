@@ -12,8 +12,9 @@
 $ npm install
 ```
 
-## Running the app
+## Setup Firebase
 
+Please download the service account file in your Firebase account and add to this project.
 ```bash
 # development
 $ npm run start
