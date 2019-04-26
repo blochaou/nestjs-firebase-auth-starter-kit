@@ -12,42 +12,45 @@
 $ npm install
 ```
 
-## Running the app
+## Setup Firebase
 
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+Please download the service account file in your Firebase account. Copy and past the JSON parameter in the file firebase.secrets.json.
+```
+{
+    "type": "",
+    "project_id": "",
+    "private_key_id": "",
+    "private_key": "",
+    "client_email": "",
+    "client_id": "",
+    "auth_uri": "",
+    "token_uri": "",
+    "auth_provider_x509_cert_url": "",
+    "client_x509_cert_url": ""
+}
 ```
 
-## Test
+![Firebase account service setting](./firebase-account-service-setting.png)
 
-```bash
-# unit tests
-$ npm run test
+## Setup MongoDB
 
-# e2e tests
-$ npm run test:e2e
+Change the MongoDB uri in the file constantes.ts
 
-# test coverage
-$ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+export const MONGO_URI = 'mongodb+srv://USERNAME:PASSWORD@DOMAINENAME/DBNAME?retryWrites=true';
+```
 
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [BEF Technology](https://bef-technology.com)
+- Website - [https://bef-technology.com](https://bef-technology.com)
+
+## Contributors
+
+- Blochaou François - [blochaou](https://github.com/blochaou)
+- Corentin Dugandzic - [decarim](https://github.com/decarim)
+- Jérémy André - [cookiekastanie](https://github.com/cookiekastanie)
 
 ## License
 
-  Nest is [MIT licensed](LICENSE).
+MIT Licence.
