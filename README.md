@@ -48,7 +48,7 @@ export const MONGO_URI = 'mongodb+srv://USERNAME:PASSWORD@DOMAINENAME/DBNAME?ret
 ## Contributors
 
 - Blochaou François - [blochaou](https://github.com/blochaou)
-- Corentin Dugandzic - [decarim](https://github.com/decarim)
+- Corentin Dugandzic - [CorentinDug](https://github.com/CorentinDug)
 - Jérémy André - [cookiekastanie](https://github.com/cookiekastanie)
 
 ## License
